@@ -1,6 +1,9 @@
+@charset "UTF-8";
 .portfolio-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   min-height: 250px;
   grid-gap: 7px;
   max-width: 1440px;
@@ -19,24 +22,27 @@
   margin-top: 50px;
   text-align: center;
 }
-.portfolio-grid-item-last {
-  padding-top: 120px;
-  font-size: 1rem;
-}
 
 .bottom-text {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 
 @media (max-width: 550px) {
   .portfolio-container {
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 750px) {
   .portfolio-container {
-    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
+
+#this  {
+  padding-top: 120px;
+}
+/*# sourceMappingURL=portfolio.css.map */

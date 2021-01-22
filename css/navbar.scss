@@ -1,4 +1,4 @@
-/* .navbar {
+.navbar {
   background-color: white;
   display: flex;
   align-items: center;
@@ -44,6 +44,7 @@
     position: absolute;
     right: 15px;
     top: 15px;
+    z-index: 999;
   }
 
   .nav-list {
@@ -63,4 +64,3 @@
     cursor: pointer;
   }
 }
- */

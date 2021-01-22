@@ -1,27 +1,23 @@
-/* .banner {
+.banner {
   width: 100%;
   text-align: center;
   height: 100vh;
   padding-top: 30vh;
-  background: url(/img/home-banner.jpg) no-repeat center center fixed;
+  background: url(/img/home-banner.jpg) no-repeat center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
-button {
-  z-index: 99999;
-  position: relative;
-}
-
-h1 {
+#home-heading {
   color: white;
-  z-index: 99999;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
   position: relative;
 }
 
 .background-overlay {
-  z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,5 +35,6 @@ h1 {
   border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 1;
+  position: relative;
 }
- */
