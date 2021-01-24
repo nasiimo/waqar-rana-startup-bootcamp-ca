@@ -1,0 +1,12 @@
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.message {
+  text-align: center;
+}
+
+.direct {
+  text-align: center;
+}

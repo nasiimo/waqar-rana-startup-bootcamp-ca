@@ -1,0 +1,28 @@
+.nnn {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.skill-container {
+  text-align: center;
+  max-width: 535px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 35px;
+}
+
+#skill-icon {
+  width: 100%;
+}
+
+.p {
+  text-align: center;
+  max-width: 635px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.75;
+}
